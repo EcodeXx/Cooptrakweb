@@ -1,0 +1,73 @@
+/* General Section Styling */
+section {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #13835a;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #13835a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 16px;
+    color: #2ed573;
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 16px;
+    color: #13835a;
+    list-style-type: disc;
+}
+
+/* Links Styling */
+a {
+    color: #2ed573;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p, li {
+        font-size: 15px;
+    }
+}
